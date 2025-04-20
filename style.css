@@ -2,19 +2,11 @@
 @import url('reset.css');
 @import url('style2.css');
 
-/* @font-face {
-    font-family: 'Paperlogy';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
-    font-style: normal;} */
-
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
 @import url('https://cdn.jsdelivr.net/gh/fonts-archive/Paperlogy/Paperlogy.css');
+@import url('https://db.onlinewebfonts.com/c/7403ec90e14eab424bc9912bf141a802?family=Quentin');
 
-@font-face {
-    font-family: 'Quentin';
-    src: url('fonts/Quentin.otf') format('otf');
-    font-weight: normal;
-    font-style: normal;}
+
 
 
 html {
@@ -140,7 +132,7 @@ transform-origin: top center;}
 .date-wrap{
     display: flex;
     color: white;
-    font-family: 'Paperlogy-1Thin', 'pretendard';
+    font-family: 'Paperlogy', 'pretendard';
     font-weight: 100;
     font-size: 30px;
     justify-content: space-between;
@@ -181,8 +173,7 @@ transform-origin: top center;}
     border: 1px solid white; /* 테두리 */
     border-radius: 80px; /* 둥근 모서리 */
     color: white; /* 글자 색상 */
-    font-family: 'Paperlogy-1Thin';
-src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+    font-family: 'Paperlogy', 'sans-serif';
 font-weight: 100;
     background-color: black; /* 배경색 */
     text-align: center;
@@ -193,8 +184,7 @@ font-weight: 100;
     word-spacing: 20px;
 }
 .WEB , .THANKS{color: white;
-    font-family: 'Paperlogy-1Thin';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+    font-family: 'Paperlogy','sans-serif';
     font-weight: 100;
     word-spacing: 18px;
     line-height: 35px;
@@ -215,16 +205,14 @@ font-weight: 100;
 
 
 .DE{color: white;
-    font-family: 'Paperlogy-1Thin';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+    font-family: 'Paperlogy', 'sans-serif';
     font-weight: 100;
     font-size: 16px;}
 
 
 
 .Introduction{
-    font-family: 'Paperlogy-1Thin';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+    font-family: 'Paperlogy', 'sans-serif';
     font-weight: 800;color: white;
     font-size: 30px;
     padding: 0 0 50px 0px;}
@@ -246,8 +234,7 @@ font-weight: 100;
             object-fit:cover;
             transform: translateX(1px); /* 좌우 이동 */}
 
-.name{font-family: 'Pretendard-Thin';
-    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+.name{font-family: 'Pretendard', 'sans-serif';
     font-weight: 400;
     font-style: normal;
     color: white;
@@ -256,8 +243,7 @@ font-weight: 100;
     .name-ko{font-weight: 700;}
     .info-wrap{  display: flex;
         gap: 30px; /* 좌우 간격 조절 */}
-    .AGE, .AGE-N{font-family: 'Pretendard-Thin';
-    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    .AGE, .AGE-N{font-family: 'Pretendard', 'sans-serif';
     font-style: normal;
     color: white;
     line-height: 25px;
@@ -285,19 +271,16 @@ font-weight: 100;
         justify-content: space-between;
         }
 
-    .Background{  font-family: 'Paperlogy-1Thin';
-        src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+    .Background{  font-family: 'Paperlogy', 'sans-serif';
         font-weight: 700;
         line-height: 35px;}
 
-    .Background-ko{font-family: 'Pretendard-Thin';
-        src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    .Background-ko{font-family: 'Pretendard', 'sans-serif';
         font-style: normal;
         font-weight: 400;}
 
         .Background-s, .Background-s2, .Background-s3{
-            font-family: 'Pretendard-Thin';
-                src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+            font-family: 'Pretendard', 'sans-serif';
                 font-style: normal;
                 font-weight: 100;color: white;
         font-size: 13px;
@@ -307,8 +290,7 @@ font-weight: 100;
 
 
 
-            .Education-s{font-family: 'Pretendard-Thin';
-                src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+            .Education-s{font-family: 'Pretendard', 'sans-serif';
                 font-style: normal;
                 font-weight: 100; color: white;
                 font-size: 14px; line-height: 23px;
@@ -322,8 +304,7 @@ font-weight: 100;
                 margin: -18px 0 0 0;}
             .Strengths-s{padding-bottom: 7px;}
     
-            .con01-btn-wrap{font-family: 'Pretendard-Thin';
-                src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+            .con01-btn-wrap{font-family: 'Pretendard', 'sans-serif';
                 font-style: normal;
                 font-weight: 100;
                 font-size: 14px;
@@ -381,13 +362,12 @@ font-weight: 100;
   display: flex;
   gap: 50px;
   color: white;
-  font-family: 'Pretendard-Thin';
+  font-family: 'Pretendard';
   flex-wrap: wrap; /* 반응형 줄바꿈 대응 */
 
 }
     
-.ai-num, .ps-num, .xd-num, .Ai, .Ps, .Xd{ font-family: 'Pretendard-Thin';
-    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+.ai-num, .ps-num, .xd-num, .Ai, .Ps, .Xd{ font-family: 'Pretendard';
     font-style: normal;
     padding-top: 10px;}
 
@@ -406,15 +386,14 @@ font-weight: 100;
     margin-top: -10px;
     font-size: 16px;}
 
-   .KEYWORD{font-weight: 500;}
+   .KEYWORD{font-weight: 100;}
 .SIMPLE, .CHARACTER, .RETRO, .ORIENTAL, .COZY{
     width: 160px; /* 버튼 너비 */
     height: 60px; /* 버튼 높이 */
     border: 1px solid black; /* 테두리 */
     border-radius: 80px; /* 둥근 모서리 */
     color: white; /* 글자 색상 */
-    font-family: 'Pretendard-Thin';
-        src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-family: 'Pretendard';
         font-style: normal;
         font-weight: 100;
     font-size: 25PX;
@@ -432,8 +411,7 @@ font-weight: 100;
     border: 1px solid white; /* 테두리 */
     border-radius: 80px; /* 둥근 모서리 */
     color: white; /* 글자 색상 */
-    font-family: 'Pretendard-Thin';
-    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-family: 'Pretendard';
     font-style: normal;
     font-weight: 100;
     font-size: 25PX;
@@ -456,8 +434,7 @@ font-weight: 100;
     .CHARACTER:hover{width: 210px; /* 버튼 너비 */}
 .COZY{width: 145px;}
 .COZY:hover{width: 145px;}
-.PROJECTS-KEYWORD{font-family: 'Paperlogy-1Thin';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+.PROJECTS-KEYWORD{font-family: 'Paperlogy';
     font-weight: 800;color: white;
         font-size: 60px;
     line-height: 80px;
@@ -467,16 +444,14 @@ font-weight: 100;
     padding-top:200px;
     padding-bottom: 50px;
     }
-#simple-t, #Character-t, #retro-t, #Oriental-t, #Cozy-t{  font-family: 'Paperlogy-1Thin';
-    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+#simple-t, #Character-t, #retro-t, #Oriental-t, #Cozy-t{  font-family: 'Paperlogy';
     font-weight: 800;
     text-align: center;
     font-size: 100px;
     color: white;
     padding-top:20px;}
 
-.simple-ko{ font-family: 'Pretendard-Thin';
-    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+.simple-ko{ font-family: 'Pretendard';
     font-style: normal;
     font-size: 25PX;
     text-align: center;
@@ -486,16 +461,14 @@ font-weight: 100;
     padding-bottom: 50px;}
 
     .pj-01-st{
-        font-family: 'Paperlogy-1Thin';
-        src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+        font-family: 'Paperlogy';
         font-weight: 100;
         font-size: 16px;
         color: white;
         line-height: 40px;
     }
 
-    .pj-01-t{ font-family: 'Pretendard-Thin';
-        src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    .pj-01-t{ font-family: 'Pretendard';
         font-style: normal;
         font-size: 40PX;
         color: white;
@@ -506,8 +479,7 @@ font-weight: 100;
         height: 50px;
         border-radius: 80px;
         border: 1px solid white;
-        font-family: 'Pretendard-Thin';
-        src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+        font-family: 'Pretendard';
         font-style: normal;
         font-size: 16PX;
         align-items: center;
@@ -523,8 +495,7 @@ font-weight: 100;
     .p01-link-btn:hover{background-color: white;
     color: black;}
     .pj-st, .Concept{
-        font-family: 'Pretendard-Thin';
-    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+        font-family: 'Pretendard';
     font-style: normal;
     font-size: 20PX;
     color: white;
@@ -536,14 +507,13 @@ font-weight: 100;
         display: flex;
         gap: 40px;
         color: white;
-        font-family: 'Pretendard-Thin';
+        font-family: 'Pretendard';
       }
       
 
         
 
-          .yong-p-num, .yong-d-num, .yong-p,.yong-d{ font-family: 'Pretendard-Thin';
-            src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+          .yong-p-num, .yong-d-num, .yong-p,.yong-d{ font-family: 'Pretendard';
             font-style: normal;
             padding-top: 10px;}
 
@@ -577,8 +547,7 @@ font-weight: 100;
         padding: 0px;
         margin-top: 8px;}
 
-    .Concept-t{font-family: 'Pretendard-Thin';
-        src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    .Concept-t{font-family: 'Pretendard';
         font-style: normal;
         font-weight: 100; color: white;
         font-size: 14px; line-height: 23px;
