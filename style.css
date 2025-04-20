@@ -1,0 +1,1211 @@
+@import url('normalize.css');
+@import url('reset.css');
+@import url('style2.css');
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body{background-color: black;
+    overflow-x: hidden; /*가로 스크롤 제거*/
+    width: 100vw; /* 뷰포트 기준 너비 고정 */
+    overflow-x: hidden; /* 수평 스크롤 제거 */}
+
+.intro, .con01, .con02, .con03, .con04, .con05,.con06, .footer{width: 100%;
+    max-width: 1920px;
+    padding-top: 100px;
+    box-sizing: border-box;}
+
+footer{ padding: 150px 0 250px 0;}
+
+.intro{
+transform-origin: top center;}
+
+
+    .D_SIGN, .PORT-OLIO, .CHOI-HYO{font-family: 'Paperlogy-1Thin';
+        src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+        font-weight: 700;
+        color: white; font-size: 165px; /* 최소 2rem, 최대 165px */
+        letter-spacing: -10px;
+        white-space: nowrap;
+        flex-shrink: 1; /* 축소 가능하지만 최소 폭 확보를 위함 */
+        padding-left: 40px;
+        line-height: 180px;
+        word-spacing: -60px;
+        }
+        .PORT-OLIO{
+            letter-spacing: -23px;
+        }           
+    .intro-E,.intro-f, .R{font-family: 'Quentin';
+        src: url('./fonts/Quentin.otf') format('otf');
+        font-weight: normal;
+        font-style: normal;
+        color: white; 
+        font-size:270px;}
+
+.PROJECT-BTN, .PROJECT-BTN2{ display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px; /* 버튼 너비 */
+    height: 130px; /* 버튼 높이 */
+    border: 1px solid white; /* 테두리 */
+    border-radius: 200px; /* 둥근 모서리 */
+    color: white; /* 글자 색상 */
+    font-family: 'Poppins', sans-serif; /* 깔끔한 폰트 */
+    background-color: black; /* 배경색 */
+    text-align: center;
+    gap: 10px; /* 위아래 간격 조절 */
+    transition: 0.2s;
+    min-width: 300px;
+    flex-shrink: 1;
+}
+    .intro-btn{
+        padding-right: 50px;
+    }
+
+    .PROJECT-BTN:hover, .PROJECT-BTN2:hover{
+        background-color: white;
+        color: black;
+        border-color: white;}
+
+        .PROJECT-T, .CREATED{
+            font-size: 2.5rem !important;
+            font-family: 'Paperlogy-1Thin';
+        src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+        font-weight: 100;
+        }
+        .PROJECT-N{font-family: 'Paperlogy-1Thin';
+            src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+            font-weight: 100;
+            font-size: 1.3rem !important;
+        }
+.design{ display: flex;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-between;
+    gap: 40px; /* 두 요소 사이 최소 간격 */
+    }
+.intro-line{
+    width: 2000px;
+    height: 1px;
+    background-color: white;}
+
+    .intro-f{
+        padding-left: 40px;
+        position: relative;
+        top: -45px; /* 원하는 만큼 올리기 */
+        font-size: 270px;
+    }
+.PORT-OLIO{
+    text-align: center;
+    padding-right: 50px;
+    letter-spacing: -5px;
+    word-spacing: -20px;
+}
+.CHOI-HYO{
+    letter-spacing: -6px;
+    word-spacing: 5px;
+    text-align: right;
+}
+    .R{
+        padding-left: 10px;
+        position: relative;
+        top: 10px;
+    }
+    .i{padding-left: 20px;}
+.choihyori{
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0px; /* 두 요소 사이 최소 간격 */
+    flex-direction: row-reverse;
+}
+.intro-btn2{
+    padding-left:50px;
+}
+.date-wrap{
+    display: flex;
+    color: white;
+    font-family: 'Paperlogy-1Thin';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+    font-weight: 100;
+    font-size: 30px;
+    justify-content: space-between;
+    padding: 60px 50px 60px 50px;
+}
+
+/* .vertical-line {
+    width: 1px; /* 선 두께 */
+    /* height: 350px; 선 길이 */
+    /* background-color: white; 선 색상 */
+    /* justify-content: center; */
+    /* align-items: center; */
+/* .intro-line2{
+    display: flex;
+    flex-direction: column !important;} */
+
+
+.PROFILE-BTN{
+    width: 260px; /* 버튼 너비 */
+    height: 120px; /* 버튼 높이 */
+    border: 1px solid white; /* 테두리 */
+    border-radius: 80px; /* 둥근 모서리 */
+    color: white; /* 글자 색상 */
+    font-family: 'Paperlogy-1Thin';
+src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+font-weight: 100;
+    background-color: black; /* 배경색 */
+    text-align: center;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 350px;
+
+}
+.END-BTN{
+    width: 260px; /* 버튼 너비 */
+    height: 120px; /* 버튼 높이 */
+    border: 1px solid white; /* 테두리 */
+    border-radius: 80px; /* 둥근 모서리 */
+    color: white; /* 글자 색상 */
+    font-family: 'Paperlogy-1Thin';
+src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+font-weight: 100;
+    background-color: black; /* 배경색 */
+    text-align: center;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-spacing: 20px;
+}
+.WEB , .THANKS{color: white;
+    font-family: 'Paperlogy-1Thin';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+    font-weight: 100;
+    word-spacing: 18px;
+    line-height: 35px;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.WEB{ 
+    padding-top: 0;
+    margin-top: -320px;
+    padding-bottom: 150px;
+}
+
+.THANKS{
+    text-align: center;
+}
+
+
+
+.DE{color: white;
+    font-family: 'Paperlogy-1Thin';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+    font-weight: 100;
+    font-size: 16px;}
+
+
+
+.Introduction{
+    font-family: 'Paperlogy-1Thin';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+    font-weight: 800;color: white;
+    font-size: 30px;
+    padding: 0 0 50px 0px;}
+
+    .oval-img-wrapper{ width: 240px; /* 너비는 원하는 크기로 */
+        height: 365px; /* 세로가 더 길게 */
+        border-radius: 50% / 33%; /* 타원 느낌으로 */
+        overflow: hidden; /* 영역 밖 자르기 */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;}
+        .image-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* 잘 맞게 채움 */}
+        .profile-img{  width: 250px;
+            height: auto;
+            object-fit:cover;
+            transform: translateX(1px); /* 좌우 이동 */}
+
+.name{font-family: 'Pretendard-Thin';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    padding: 30px 0 15px 0;
+    font-size: 18px;}
+    .name-ko{font-weight: 700;}
+    .info-wrap{  display: flex;
+        gap: 30px; /* 좌우 간격 조절 */}
+    .AGE, .AGE-N{font-family: 'Pretendard-Thin';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-style: normal;
+    color: white;
+    line-height: 25px;
+    font-size: 16px;
+    margin: 0px 0 0 0;}
+    .AGE{font-weight: 600;}
+    .AGE-N{
+        font-weight: 100;}
+
+ .con01-left1, .con01-left2{
+    padding-left: 150px;
+ }
+ .skills-line{width:590px; border: none; height: 1px;
+    background-color: white;
+    }
+
+.b-wrap{height: 250px;
+    max-width: 590px;
+    }
+
+    .Background-wrap{
+        color: white; font-size: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        }
+
+    .Background{  font-family: 'Paperlogy-1Thin';
+        src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+        font-weight: 700;
+        line-height: 35px;}
+
+    .Background-ko{font-family: 'Pretendard-Thin';
+        src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+        font-style: normal;
+        font-weight: 400;}
+
+        .Background-s, .Background-s2, .Background-s3{
+            font-family: 'Pretendard-Thin';
+                src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+                font-style: normal;
+                font-weight: 100;color: white;
+        font-size: 13px;
+        line-height: 23px;
+        padding: 30px 0 60px 0;
+        font-weight: 100;}
+
+
+
+            .Education-s{font-family: 'Pretendard-Thin';
+                src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+                font-style: normal;
+                font-weight: 100; color: white;
+                font-size: 14px; line-height: 23px;
+                display: flex;
+                gap: 30px; /* 좌우 간격 조절 */
+                padding: 30px 0 0px 0;}
+    
+            .Strengths-wrap{color: white; font-size: 15px;
+                display: flex;
+                gap: 475px; /* 좌우 간격 조절 */
+                margin: -18px 0 0 0;}
+            .Strengths-s{padding-bottom: 7px;}
+    
+            .con01-btn-wrap{font-family: 'Pretendard-Thin';
+                src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+                font-style: normal;
+                font-weight: 100;
+                font-size: 14px;
+                border-radius: 80px; /* 둥근 모서리 */
+                color: white; /* 글자 색상 */
+                display: flex;
+                gap: 10px; /* 좌우 간격 조절 */
+                padding-top: 20px;}
+            .con01-btn1:hover, .con01-btn2:hover, .con01-btn3:hover{
+                background-color: white;
+                color: black;
+                border-color: white;
+            }
+    
+            .con01-btn1, .con01-btn2, .con01-btn3{
+                height: 40px;   border: 1px solid white; /* 테두리 */border-radius: 80px; /* 둥근 모서리 */    text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-top: 2px;/* 글씨가 약간 올라갔을 때 미세 조절 */
+                transition: 0.2s;}
+    
+            .con01-btn1{ width: 105px;}
+    
+            .con01-btn2{ width: 135px;}
+    
+            .con01-btn3{ width: 95px;}
+
+        .Background-s2{
+            padding: 30px 0 0px 0;}
+        .Background-s3{
+            padding: 20px 0 0px 0;}
+
+.con01-01, .con01-02{
+    display: flex;
+    justify-content: space-between; /* 양쪽 정렬 핵심 */
+    height: 1000px;
+}
+.con01-02{
+    padding-top: 40px;
+    gap: 20px;
+    height: 100px;
+    flex-wrap: wrap; /* 반응형 줄바꿈 대응 */
+}
+
+    .con01-right1{
+        padding-right: 150px;
+    }
+    .con01-right2{
+        padding-right: 250px;
+    }
+
+
+.skills-percent {
+  display: flex;
+  gap: 50px;
+  color: white;
+  font-family: 'Pretendard-Thin';
+  flex-wrap: wrap; /* 반응형 줄바꿈 대응 */
+
+}
+    
+.ai-num, .ps-num, .xd-num, .Ai, .Ps, .Xd{ font-family: 'Pretendard-Thin';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-style: normal;
+    padding-top: 10px;}
+
+.a-n, .p-n, .x-n{
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: -2px;}
+
+.a-p, .p-p, .x-p{
+    font-weight: 100;
+    font-size: 25px;
+    letter-spacing: -5px;
+}
+.Ai, .Ps, .Xd{
+    font-weight: 400;
+    margin-top: -10px;
+    font-size: 16px;}
+
+   .KEYWORD{font-weight: 500;}
+.SIMPLE, .CHARACTER, .RETRO, .ORIENTAL, .COZY{
+    width: 160px; /* 버튼 너비 */
+    height: 60px; /* 버튼 높이 */
+    border: 1px solid black; /* 테두리 */
+    border-radius: 80px; /* 둥근 모서리 */
+    color: white; /* 글자 색상 */
+    font-family: 'Pretendard-Thin';
+        src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+        font-style: normal;
+        font-weight: 100;
+    font-size: 25PX;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 4px;/* 글씨가 약간 올라갔을 때 미세 조절 */
+    font-weight: 100;
+    transition: 0.2s;
+    text-decoration: none;}
+
+    .SIMPLE:hover, .CHARACTER:hover, .RETRO:hover, .ORIENTAL:hover, .COZY:hover
+{    width: 160px; /* 버튼 너비 */
+    height: 60px; /* 버튼 높이 */
+    border: 1px solid white; /* 테두리 */
+    border-radius: 80px; /* 둥근 모서리 */
+    color: white; /* 글자 색상 */
+    font-family: 'Pretendard-Thin';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: 100;
+    font-size: 25PX;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 4px;/* 글씨가 약간 올라갔을 때 미세 조절 */
+    font-weight: 100;
+    cursor: pointer;
+}
+    .CHARACTER{width: 230px; /* 버튼 너비 */}
+.kategorie{
+    display: flex;
+    gap: 5px; /* 좌우 간격 조절 */
+    justify-content: center;
+    padding-bottom: 150px;}
+.ORIENTAL{width: 190px;}
+    .ORIENTAL:hover{width: 190px;}
+.CHARACTER{width: 210px; /* 버튼 너비 */}
+    .CHARACTER:hover{width: 210px; /* 버튼 너비 */}
+.COZY{width: 145px;}
+.COZY:hover{width: 145px;}
+.PROJECTS-KEYWORD{font-family: 'Paperlogy-1Thin';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+    font-weight: 800;color: white;
+        font-size: 60px;
+    line-height: 80px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top:200px;
+    padding-bottom: 50px;
+    }
+#simple-t, #Character-t, #retro-t, #Oriental-t, #Cozy-t{  font-family: 'Paperlogy-1Thin';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+    font-weight: 800;
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    padding-top:20px;}
+
+.simple-ko{ font-family: 'Pretendard-Thin';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-style: normal;
+    font-size: 25PX;
+    text-align: center;
+    color: white;
+    font-weight: 100;
+    line-height: 100px;
+    padding-bottom: 50px;}
+
+    .pj-01-st{
+        font-family: 'Paperlogy-1Thin';
+        src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-8ExtraBold.woff2') format('woff2');
+        font-weight: 100;
+        font-size: 16px;
+        color: white;
+        line-height: 40px;
+    }
+
+    .pj-01-t{ font-family: 'Pretendard-Thin';
+        src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+        font-style: normal;
+        font-size: 40PX;
+        color: white;
+        font-weight: 700;
+        padding-bottom: 50px;}
+
+    .p01-link-btn{width: 145px;
+        height: 50px;
+        border-radius: 80px;
+        border: 1px solid white;
+        font-family: 'Pretendard-Thin';
+        src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+        font-style: normal;
+        font-size: 16PX;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding-top: 4px;/* 글씨가 약간 올라갔을 때 미세 조절 */
+        font-weight: 100;
+        transition: 0.2s;
+        text-decoration: none;
+        color: white;
+        cursor: pointer;}
+
+    .p01-link-btn:hover{background-color: white;
+    color: black;}
+    .pj-st, .Concept{
+        font-family: 'Pretendard-Thin';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-style: normal;
+    font-size: 20PX;
+    color: white;
+    font-weight: 700;
+    }
+
+
+    .yongkcal-percent {
+        display: flex;
+        gap: 40px;
+        color: white;
+        font-family: 'Pretendard-Thin';
+      }
+      
+
+        
+
+          .yong-p-num, .yong-d-num, .yong-p,.yong-d{ font-family: 'Pretendard-Thin';
+            src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+            font-style: normal;
+            padding-top: 10px;}
+
+            .yong-p-n, .yong-d-n{
+            font-weight: 700;
+            font-size: 50px;
+            letter-spacing: -2px;}
+        
+            .yong-p-p, .yong-d-p{
+            font-weight: 100;
+            font-size: 25px;
+            letter-spacing: -5px;
+            }
+            .yong-p,.yong-d{
+            font-weight: 400;
+            margin-top: -10px;
+            font-size: 16px;}
+        .pj-p-wrap{
+            display: flex;
+            gap: 60px;
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+
+    .concep-line{
+        width: 662px;
+        height: 1px;
+        background-color: white;}
+
+    .Concept{ 
+        padding: 0px;
+        margin-top: 8px;}
+
+    .Concept-t{font-family: 'Pretendard-Thin';
+        src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+        font-style: normal;
+        font-weight: 100; color: white;
+        font-size: 14px; line-height: 23px;
+        padding-top: 30px;
+    }
+    .yong-main {width: 700px;
+        height: auto;}
+
+    .pj01-web-wrap{
+        display: flex;
+        gap: 20px;
+        position: relative;
+        width: 100%;  /* 또는 적당한 너비 */
+        max-width: 700px;
+    }
+    .pj01-main-wrap{
+        position: absolute;
+        top: 150px;
+        right: 50px;}
+
+.PROJECT01, .PROJECT02{
+    display: flex;
+    justify-content: space-between; /* 양쪽 정렬 핵심 */
+    align-items: center;
+    height: 800px;}
+.PROJECT01-left{
+    padding-left: 150px;
+}
+
+/* 기여도 그래프 바 컬러 모음 */
+    .dos-bar, .hom-bar, .mi-p-bar, .mi-d-bar,
+    .venti-p-bar, .venti-d-bar, .street-p-bar,
+    .street-d-bar, .mayo-p-bar, .every-p-bar, 
+    .every-d-bar, .hatane-p-bar, .hatane-d-bar,
+    .four-p-bar, .four-d-bar, .dinning-p-bar,
+    .dinning-d-bar, .carrot-p-bar, .cheong-p-bar,
+    .cheong-d-bar, .jang-p-bar, .jang-d-bar, .jin-p-bar,
+    .jin-d-bar, .kk-p-bar, .buri-p-bar, .bbok-p-bar,
+    .bing-p-bar, .sd-p-bar, .sasil-p-bar
+    {
+        width: 130px;
+        height: 5px;
+        background-color: rgb(59, 59, 59); /* 어두운 배경 바 */
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .fill{
+        height: 100%;
+    }
+
+    .dos-bar .fill{
+        background-color: rgb(223, 8, 8);
+    }
+
+
+    .hom-bar{
+        background-color:rgb(0, 16, 56);
+    }
+    .hom-bar .fill{
+        background-color:rgb(0, 35, 122); /* 채워지는 막대 색 */
+    }
+
+
+    .mi-p-bar{
+        background-color: rgb(0, 26, 50);
+    }   
+    .mi-p-bar .fill{
+        background-color: rgb(0, 61, 116);
+    }
+    .mi-d-bar{
+        background-color: rgb(28, 101, 134);
+    }
+    .mi-d-bar .fill{
+        background-color:rgb(52, 191, 225);
+    }
+
+
+    .venti-p-bar{
+        background-color:rgb(84, 69, 0);
+    }  
+    .venti-p-bar .fill{
+        background-color:rgb(255, 210, 0);
+    }
+    .venti-d-bar{
+        background-color:rgb(95, 5, 11);
+    }
+    .venti-d-bar .fill{
+        background-color:rgb(223, 7, 22);
+    }
+
+
+    .street-p-bar{
+        background-color:rgb(0, 73, 89);
+    }
+    .street-p-bar .fill{
+        background-color:rgb(0, 210, 255);
+    }
+    .street-d-bar{
+        background-color:rgb(7, 0, 102);
+    }
+    .street-d-bar .fill{
+        background-color:rgb(12, 0, 185);
+    }
+
+    .mayo-p-bar{
+        background-color:rgb(122, 3, 12);
+    }   
+    .mayo-p-bar .fill{
+        background-color:rgb(223, 7, 22);
+    }
+
+
+    .every-p-bar{
+        background-color:rgb(0, 59, 41);
+    }
+    .every-p-bar .fill{
+        background-color:rgb(0, 184, 126);
+    }
+    .every-d-bar{
+        background-color:rgb(101, 56, 15);
+    }
+    .every-d-bar .fill{
+        background-color:rgb(240, 134, 35);
+    }
+
+
+    .hatane-p-bar{
+        background-color:rgb(77, 0, 126);
+    }
+    .hatane-p-bar .fill{
+        background-color:rgb(136, 0, 222);
+    }
+    .hatane-d-bar{
+        background-color:rgb(16, 193, 79);
+    }
+    .hatane-d-bar .fill{
+        background-color:rgb(16, 193, 79);}
+
+
+
+    .four-p-bar{
+        background-color:rgb(77, 50, 16);
+    }
+    .four-p-bar .fill{
+        background-color:rgb(255, 167, 52);
+    }
+    .four-d-bar{
+        background-color:rgb(255, 69, 54);
+    }
+    .four-d-bar .fill{
+        background-color:rgb(255, 69, 54);
+    }
+
+
+    .dinning-p-bar{
+        background-color:rgb(115, 25, 17);
+    }
+    .dinning-p-bar .fill{
+        background-color:rgb(202, 44, 30);
+    }
+    .dinning-d-bar{
+        background-color:rgb(255, 246, 2);
+    }
+    .dinning-d-bar .fill{
+        background-color:rgb(255, 246, 2);
+    }
+
+
+    .carrot-p-bar{
+        background-color:rgb(254, 18, 22);
+    }
+    .carrot-p-bar .fill{
+        background-color:rgb(254, 18, 22);
+    }
+
+
+    .cheong-p-bar{
+        background-color:rgb(240, 134, 35);
+    }
+    .cheong-p-bar .fill{
+        background-color:rgb(46, 107, 79);
+    }
+    .cheong-d-bar{
+        background-color:rgb(73, 68, 50);
+    }   
+    .cheong-d-bar .fill{
+        background-color:rgb(251, 233, 174);
+    }
+
+
+    .jang-p-bar{
+        background-color:rgb(250, 250, 250);
+    }   
+    .jang-p-bar .fill{
+        background-color:rgb(250, 250, 250);
+    }
+    .jang-d-bar{
+        background-color:rgb(240, 134, 35);
+    }
+    .jang-d-bar .fill{
+        background-color:rgb(179, 36, 36);
+    }
+
+
+    .jin-p-bar{
+        background-color:rgb(79, 67, 39);
+    }
+    .jin-p-bar .fill{
+        background-color:rgb(226, 192, 112);
+    }
+    .jin-d-bar{
+        background-color:rgb(240, 134, 35);
+    }
+    .jin-d-bar .fill{
+        background-color:rgb(170, 39, 45);
+    }
+
+
+    .kk-p-bar{
+        background-color:rgb(240, 134, 35);
+    }
+    .kk-p-bar .fill{
+        background-color:rgb(55, 62, 254);
+    }
+
+
+    .buri-p-bar{
+        background-color:rgb(80, 23, 29);
+    }
+    .buri-p-bar .fill{
+        background-color:rgb(190, 54, 68);
+    }
+
+
+    .bbok-p-bar{
+        background-color:rgb(240, 134, 35);
+    }  
+    .bbok-p-bar .fill{
+        background-color:rgb(255, 120, 0);
+    }
+
+
+    .bing-p-bar{
+        background-color:rgb(240, 134, 35);
+    }
+    .bing-p-bar .fill{
+        background-color:rgb(255, 209, 130);
+    }
+
+
+    .sd-p-bar{
+        background-color:rgb(240, 134, 35);
+    }
+    .sd-p-bar .fill{
+        background-color:rgb(255, 166, 23);
+    }
+
+
+    .sasil-p-bar{
+        background-color:rgb(240, 134, 35);
+    }
+    .sasil-p-bar .fill{
+        background-color:rgb(26, 106, 181);
+    }
+
+.PROJECT02{
+    flex-direction: row-reverse;
+}
+.PROJECT02-right{
+
+}
+.concep-line2{
+    width: 600px;
+    height: 1px;
+    background-color: white;}
+
+    .pj02-web-wrap{
+        display: flex;
+        gap: 20px;
+        position: relative;
+        width: 100%;  /* 또는 적당한 너비 */
+        max-width: 700px;}
+    .pj02-main-wrap{
+        position: absolute;
+        top: 150px;
+        left: 50px;}
+.ka-tt{padding: 250px 0 50px 0;}
+
+.ttt{
+    position: fixed;   /* 💡 화면에 고정 */
+    bottom: 30px;       /* 화면 아래에서 20px */
+    right: 50px;        /* 화면 오른쪽에서 20px */
+    cursor: pointer;   
+    display: none;      /* 처음에는 숨겨두기 */
+    z-index: 100;       /* 다른 요소들 위에 표시 */
+}
+.ttt-img {
+    width: 70px;       /* 또는 max-width */
+    height: auto;
+    object-fit: contain;}
+
+    @media (max-width: 768px) {
+        header {
+          transform: scale(1);
+          transform-origin: top center;
+      
+          width: 100vw;
+          overflow: hidden;
+          margin: 0;
+          padding: 0;
+        }
+        .date-wrap{
+            padding: 60px 0px 60px, 0px;
+            margin: 0;            
+        }
+        .D_SIGN, .PORT-OLIO, .CHOI-HYO{
+            min-width: auto;
+            padding-left: 0;
+            padding-right: 0;
+            margin-left: 0x;
+            margin-right: 0;
+          }
+        
+          .intro-line {
+            margin-left: 0px;
+          }
+        
+          .intro-btn {
+            padding-right: 0;
+          }
+        
+          .intro-btn2 {
+            padding-left: 0;
+          }
+          .con01-01 {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: auto;
+            gap: 50px;
+            padding: 40px 20px;
+          }
+        
+          .con01-left1,
+          .con01-right1,
+          .con01-left2 {
+            width: 100%;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+            transform-origin: top center;
+          }
+        .con01-right1, .con01-right2{
+            display: flex; /* ⭐ 중앙 정렬 위해 추가 */
+            flex-direction: column;
+            align-items: center; /* 가로 방향 중앙 정렬 */
+            justify-content: center; /* 세로 방향 중앙 정렬 */
+            padding: 0;
+            margin: 0 auto; /* 수평 중앙 정렬 */
+            text-align: center; /* 내부 텍스트 중앙 정렬 */
+            transform-origin: top center;
+            width: 100%
+        }
+          .AGE, .AGE-N{
+            text-align: left;
+            font-size: 16px;
+          }
+          .info-wrap, .Education-s{
+            justify-content: center;
+            padding-top: 10px;
+            padding-bottom: 40px;
+          }
+
+          .Education-s{
+            padding-top: 30px;
+          }
+
+          .Education-t1, .Education-t2{
+            text-align: left;
+          }
+          
+          .oval-img-wrapper {
+            margin: 0 auto;
+          }
+
+            
+        .con01-right1, .con01-right2{
+            padding: 0 0 0 0 ;
+            margin: 0 0 0 0;
+            justify-content: center;
+            align-items: center;
+            transform-origin: top center;
+        }
+         
+        .Background-wrap{
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            margin-left: 0;
+            padding-bottom: 10px;
+            text-align: center;
+            justify-content: space-between;
+        }
+
+        .Background, .Background-ko {
+            margin: 0;
+            padding: 2px 0;
+            font-size: 16px;
+        }
+        .Background-s{
+            padding: 0px 10px 0 10px;
+        }
+          
+        .skills-line, .concep-line, .concep-line2 {
+            position: relative;
+            width: 100%;
+            max-width: 350px;
+            margin: 50px auto 0 auto;
+        }
+          .skills-percent,.yongkcal-percent {
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 35px;
+          }
+
+        .yongkcal-percent{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+          .skills-percent li, .pj-percent {
+            width: 100%;
+            max-width: 300px;
+            margin: 0 auto;
+          }
+          
+          .bar {
+            width: 100%;
+          }
+          .pc-text {
+            display: none;
+        }
+          .pc-img {
+            display: none;
+        }
+    
+        .mobile-text {
+            display: block !important;
+            padding-top: 15px;
+            font-size: 15px;
+            line-height: 25px;
+          }
+        .mobile-img {
+            display: block !important;
+            width: 100% !important;
+          }
+        .yong-main{
+            position: static !important; /* 앱솔 해제 */
+            left: 0px;
+            right: 0px;
+            padding: 0 0px 0 0px ;
+            margin-top: -80px;
+            padding-bottom: 50px;
+            
+        }
+
+        .Introduction_list{
+            margin-top: -50px;
+        }
+        .name{
+            font-size: 20px;
+        }
+        .sec{
+            margin-top: 10px !important;
+        }
+        .b-wrap-m{
+            padding-bottom: 300px !important;
+        }
+        .con01-btn-wrap{
+            display: flexbox;
+            justify-content: center;
+            padding-top: 30px;
+        }
+        .one{
+            margin-top: 90px;
+        }
+        .skills-m{
+            padding-top: 100px !important;
+        }
+        .PROJECT01, .PROJECT02 {
+            flex-direction: column;
+            align-items: flex-start;
+            height: auto;
+            padding: 40px 20px;
+          }
+        
+          .PROJECT01-left,
+          .PROJECT02-right {
+            padding-left: 0;
+            width: 100%;
+          }
+          .PROJECT02-right{
+            margin: 0;
+            padding: 0;
+          }
+          .PROJECT01-right,
+          .PROJECT02-left {
+            width: 100%;
+            margin-top: 30px;
+          }
+        
+          .pj01-web-wrap, .pj02-web-wrap {
+            flex-direction: column;
+            align-items: center;
+            max-width: 100%;
+          }
+        
+          .pj01-main-wrap,
+          .pj02-main-wrap {
+            position: static;
+            margin-top: 30px;
+          }
+        
+        .pj02-web-wrap{
+            padding-top: 25px;
+        }
+          .scroll-box1,
+          .scroll-box2 {
+            display: none;
+          }
+        
+          .kategorie {
+            flex-wrap: wrap;
+            gap: 5px;
+            padding: 20px;
+          }
+        
+          .SIMPLE, .CHARACTER, .RETRO, .ORIENTAL, .COZY {
+            width: calc(30% - 5px);
+            font-size: 18px;
+            height: 40px;
+          }
+          .SIMPLE:hover, .CHARACTER:hover, .RETRO:hover, .ORIENTAL:hover, .COZY:hover {
+            width: calc(30% - 5px);
+            font-size: 18px;
+            height: 40px;
+            font-family: preta;
+          }
+
+          .CHARACTER{width: calc(40% - 5px)}
+          .CHARACTER:hover{width: calc(40% - 5px)}
+          .ORIENTAL{width: calc(35% - 5px)}
+          .ORIENTAL:hover{width: calc(35% - 5px)}
+          .COZY{width: calc(25% - 5px)}
+          .COZY:hover{width: calc(25% - 5px)}
+
+        
+          #simple-t, #Character-t, #retro-t, #Oriental-t, #Cozy-t {
+            font-size: 50px;
+          }
+        
+          .simple-ko {
+            font-size: 20px;
+            line-height: 60px;
+            padding-bottom: 0px;
+          }
+          #simple-t{
+            padding-top: 100px;
+          }
+        .PROJECT01-left, .PROJECT02-right{
+        text-align: center;
+        }
+          .pj-p-wrap {
+            flex-direction: column;
+            gap: 30px;
+            padding-top: 80px;
+            margin-bottom: -40px;
+          }
+        
+          .Concept-t {
+            font-size: 15px;
+            line-height: 25px;   
+          }
+
+          .Concept{
+            text-align: left;
+          }
+        
+          .p01-link-btn {
+            display: flex; /* ✨ 이게 핵심 */
+            width:100%;
+            justify-content: center;
+            margin-top: -25px;
+            margin-left: auto;  /* 이거랑 */
+            margin-right: auto; /* 이거 추가하면 박스 자체도 중앙 정렬됨 */
+            font-size: 18px;
+            border-radius: 10px;
+         }
+        
+          .PROJECTS-KEYWORD {
+            font-size: 40px;
+            line-height: 60px;
+            padding-top: 300px;
+            padding-bottom: 30px;
+          }
+        .pj-st{
+            display: none;
+        }
+
+        .pj-p-wrap{
+            padding: 50px 0 30px 0;
+        }
+        .pj02-web-wrap{
+            padding-top: 0;
+        }
+
+        .ttt{
+            position: fixed;   /* 💡 화면에 고정 */
+            bottom: 30px;       /* 화면 아래에서 20px */
+            right: 30px;        /* 화면 오른쪽에서 20px */
+            cursor: pointer;  
+        }
+
+        .ttt-img {
+            width: 55px;       /* 또는 max-width */
+            height: auto;
+        }
+
+    }
+        
+        .mobile-text {
+          display: none;
+    }
+        .mobile-img {
+          display: none;
+          width: 100%;
+    }
