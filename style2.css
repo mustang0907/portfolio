@@ -1,0 +1,175 @@
+.scroll-effect1 {
+    opacity: 0;
+    transition: opacity 0.4s ease;}
+
+    body.locked {
+        overflow: hidden;
+      }
+      
+      /* 사라지는 효과 */
+      .fade-out {
+        opacity: 0;
+        transition: opacity 0.7s ease;
+      }
+
+/* 사라지게 */
+.fade-out {
+    opacity: 0.1;
+    transform: translateY(0px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+  
+  /* 나타나게 */
+  .hidden {
+    opacity: 0.1;
+    transform: translateY(0px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+  }
+  .fade-in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .intro-line2 {
+    position: relative;
+    min-height: 350px; /* 공간 확보용 */
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+.WEB{
+  text-align: center;
+}
+
+  .vertical-line{
+    position: absolute;
+  top: 0; /* intro-line2 기준 맨 아래 */
+    width: 1px;
+    height: 0; /* 초기에는 안 보이게 */
+    background-color: white;
+    transition: height 1s ease;
+  }
+
+.w-d{
+  margin-top: 350px;
+}
+  
+  .vertical-line.active {
+    height: 350px;
+  }
+/* ct 모션 구간--------------------------------------------- */
+  .ai-bar, .ps-bar, .xd-bar {
+    --fill: 0%; /* 초기 값 */
+    position: relative;
+    width: 130px;
+    height: 5px;
+    background-color: rgb(58, 58, 58);
+    opacity: 1;
+    overflow: hidden;
+  }
+  
+  .ai-bar::before,
+  .ps-bar::before,
+  .xd-bar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: var(--fill); /* 커스텀 프로퍼티로 제어 */
+    height: 100%;
+    background-color: white;
+    transition: width 2s ease;
+  }
+  
+  .yong-p-bar, .yong-d-bar{
+    width: 130px;
+    height: 5px;
+    background-color: rgb(59, 59, 59); /* 어두운 배경 바 */
+    position: relative;
+    overflow: hidden;
+    }
+
+    .yong-d-bar{
+      background-color: rgb(0, 56, 23);
+    }
+
+    .yong-p-bar .fill,
+    .yong-d-bar .fill{
+      height: 100%;
+      background-color: rgb(255, 255, 255); /* 선명한 컬러 바 */}
+
+    .yong-d-bar .fill{
+      background-color: rgb(19, 226, 104);}
+    
+
+
+    
+  /* 아래에서 위로 움직이는 애니메이션 (scroll-yong1) */
+@keyframes scrollUp {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-30%);
+  }
+}
+
+/* 위에서 아래로 움직이는 애니메이션 (scroll-yong2) */
+@keyframes scrollDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(30%);
+  }
+}
+
+.scroll-box1,
+.scroll-box2 {
+  width: 350px;
+  height: 800px;
+  overflow: hidden;
+  position: relative;
+}
+
+.scroll-track {
+  display: flex;
+  flex-direction: column;
+}
+
+.scroll-img {
+  width: 100%;
+  height: auto;
+}
+
+/* 위로 스크롤 */
+.scroll-up {
+  animation: scrollUpLoop 100s linear infinite;
+}
+
+/* 아래로 스크롤 */
+.scroll-down {
+  animation: scrollDownLoop 100s linear infinite;
+}
+
+@keyframes scrollUpLoop {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes scrollDownLoop {
+  0% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
