@@ -382,8 +382,8 @@ font-weight: 100;
     letter-spacing: -5px;
 }
 .Ai, .Ps, .Xd{
-    font-weight: 400;
-    margin-top: -10px;
+    font-weight: 300;
+    margin-top: -0px;
     font-size: 16px;}
 
    .KEYWORD{font-weight: 100;}
@@ -510,7 +510,10 @@ font-weight: 100;
         font-family: 'Pretendard';
       }
       
+      .yong-p, .yong-d{
+        line-height: 30px;
 
+      }
         
 
           .yong-p-num, .yong-d-num, .yong-p,.yong-d{ font-family: 'Pretendard';
